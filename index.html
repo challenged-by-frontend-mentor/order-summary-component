@@ -29,7 +29,7 @@
         --blue-950: hsl(223, 47%, 23%);
         --light-blue-hover: hsl(245, 75%, 65%);
         --white: hsl(0, 0%, 100%);
-        --shadow: hsla(223, 47%, 23%, 0.2);
+        --shadow: rgb(166, 174, 214);
         --font-family: "Red Hat Display", sans-serif;
         --font-size: 16px;
         --font-weight-regular: 500;
@@ -77,7 +77,7 @@
 
         transition: all 0.3s ease;
 
-        box-shadow: 10px 10px 30px var(--gray-600);
+        box-shadow: 10px 10px 30px var(--shadow);
 
         section.card-cover {
           width: 100%;
@@ -171,6 +171,7 @@
             color: var(--blue-50);
             border-radius: 10px;
             margin-bottom: 21px;
+            box-shadow: 10px 10px 20px var(--shadow);
           }
 
           button.proceed-payment:hover {
