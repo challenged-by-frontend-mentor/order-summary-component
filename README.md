@@ -4,22 +4,19 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ## Table of contents
 
-- [Frontend Mentor - Order summary card solution](#frontend-mentor---order-summary-card-solution)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
-      - [Mobile view](#mobile-view)
-      - [Desktop view](#desktop-view)
-      - [Active state](#active-state)
-    - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
-  - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -31,56 +28,83 @@ Users should be able to:
 
 ### Screenshot
 
-#### Mobile view
+![](./screenshot.jpg)
 
-![](./sources/screenshots/Mobile%20view.png)
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-#### Desktop view
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
 
-![](./sources/screenshots/Desktop%20view.png)
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-#### Active state
-
-![](./sources/screenshots/Active%20state.jpg)
+**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Order summary card using HTML and CSS (Sass)](https://www.frontendmentor.io/solutions/order-summary-card-using-html-and-css-sass-R8WYW4heqi)
-- Live Site URL: [Frontend Mentor | Order summary card](https://vangmanawkairung.github.io/Frontend-Mentor_order-summary-component/)
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties (Variables)
-- Sass (Scss)
-- CSS Flexbox
-- CSS Grid (implicitly in grid-based layout logic)
-- CSS (Scss) with Variables and Mixins
+- CSS custom properties
+- Flexbox
+- CSS Grid
 - Mobile-first workflow
-- Google Font
-- Responsive Design with Media Queries
-- ARIA Accessibility Enhancements
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Styled Components](https://styled-components.com/) - For styles
 
+**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Through completing this Order Summary Card challenge, I gained a deeper understanding of building responsive layouts with a mobile-first approach using SCSS and media queries. I strengthened my skills in using SCSS mixins to streamline repetitive styles, making the code cleaner and easier to maintain. Additionally, working with ARIA attributes gave me insight into improving accessibility for users who rely on screen readers. This project also reinforced my experience with Flexbox for layout management and helped me integrate Google Fonts effectively to enhance typography. Overall, this challenge solidified my ability to structure semantic HTML5 markup alongside responsive, accessible design techniques.
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+
+To see how you can add code snippets, see below:
+
+```html
+<h1>Some HTML code I'm proud of</h1>
+```
+```css
+.proud-of-this-css {
+  color: papayawhip;
+}
+```
+```js
+const proudOfThisFunc = () => {
+  console.log('🎉')
+}
+```
+
+If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+
+**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-I plan to build on the foundational skills gained from this challenge by exploring more complex layouts using CSS Grid, which will allow for even greater flexibility in structuring components. Additionally, I aim to deepen my understanding of accessibility by integrating further ARIA roles and attributes to improve the user experience for all users, especially those relying on assistive technology. I also want to experiment with CSS custom properties alongside SCSS variables to create more dynamic themes, potentially enabling user-customizable color schemes. Finally, transitioning this design into a React component would be a valuable next step, as it would enable reusability and interactivity, preparing me for larger, more interactive projects in the future.
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+
+**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [@mixin and @include](https://sass-lang.com/documentation/at-rules/mixin/) - This website demonstrates how to use @mixin and @include in Sass
+- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+
+**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Frontend Mentor - [@VangmanawKairung](https://www.frontendmentor.io/profile/VangmanawKairung)
-- GitHub - [VangmanawKairung](https://github.com/VangmanawKairung)
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
+**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-I’d like to extend my gratitude to Frontend Mentor for creating this insightful Order Summary Card challenge, which provided a fantastic opportunity to enhance my front-end skills. A special thanks to Visual Studio Code for being my go-to editor, Chrome for its invaluable DevTools, and Preview on macOS for quick file viewing—all of which streamlined my workflow immensely. I also appreciate the many online resources and tools that supported my progress throughout this project. Each tool played a crucial role in helping me bring this design to life, and I look forward to using them on future challenges.
+This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+
+**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
