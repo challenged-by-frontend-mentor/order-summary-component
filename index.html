@@ -28,6 +28,8 @@
         --gray-600: hsl(224, 23%, 55%);
         --blue-950: hsl(223, 47%, 23%);
         --light-blue-hover: hsl(245, 75%, 65%);
+        --white: hsl(0, 0%, 100%);
+        --shadow: hsla(223, 47%, 23%, 0.2);
         --font-family: "Red Hat Display", sans-serif;
         --font-size: 16px;
         --font-weight-regular: 500;
@@ -61,7 +63,7 @@
       main {
         width: 327px;
         height: 567px;
-        background-color: var(--blue-50);
+        background-color: var(--white);
         border-radius: 20px;
 
         position: absolute;
@@ -74,6 +76,8 @@
         grid-template-rows: 160px calc(100% - 160px);
 
         transition: all 0.3s ease;
+
+        box-shadow: 10px 10px 30px var(--gray-600);
 
         section.card-cover {
           width: 100%;
@@ -120,7 +124,7 @@
             border-radius: 10px;
             margin-bottom: 20px;
 
-            background-color: var(--blue-100);
+            background-color: var(--blue-50);
 
             .plan-info {
               display: flex;
