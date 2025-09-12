@@ -35,23 +35,23 @@ Users should be able to:
 
 - Mobile view
 
-  <img scr="screenshots/Mobile-view.png" alt="Mobile view" width="375px">
+  <img src="screenshots/Mobile-view.png" alt="Mobile view" width="375px">
 
 - Desktop view
 
-  <img scr="screenshots/Desktop-view.png" alt="Desktop view">
+  <img src="screenshots/Desktop-view.png" alt="Desktop view">
 
 - Active state - plan changing button
 
-  <img scr="screenshots/Active-state-view-1.png" alt="Active state - plan changing button">
+  <img src="screenshots/Active-state-view-1.png" alt="Active state - plan changing button">
 
 - Active state - proceed payment button
 
-  <img scr="screenshots/Active-state-view-2.png" alt="Active state - proceed payment button">
+  <img src="screenshots/Active-state-view-2.png" alt="Active state - proceed payment button">
 
 - Active state - cancel order button
 
-  <img scr="screenshots/Active-state-view-3.png" alt="Active state - cancel order button">
+  <img src="screenshots/Active-state-view-3.png" alt="Active state - cancel order button">
 
 ### Links
 
