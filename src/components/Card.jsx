@@ -10,6 +10,8 @@ const Card = () => {
         aria-hidden="true"
         className="card__banner"
       />
+      <div className="card__content">
+
       <div className="card__hero">
         <h1 className="card__title">Order Summary</h1>
         <p className="card__description">
@@ -24,6 +26,7 @@ const Card = () => {
       <button type="button" className="card__cancel-btn">
         Cancel Order
       </button>
+      </div>
     </main>
   );
 };
