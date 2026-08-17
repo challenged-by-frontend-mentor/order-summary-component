@@ -1,23 +1,25 @@
 # Frontend Mentor - Order summary card solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+![](.reference/preview.jpg)
+
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-  - [AI Collaboration](#ai-collaboration)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+- [Frontend Mentor - Order summary card solution](#frontend-mentor---order-summary-card-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+    - [AI Collaboration](#ai-collaboration)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -29,93 +31,86 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<details>
+  <summary>Mobile view</summary>
+  <img src='screenshots/mobile-view.png' alt='Social links profile challenge - Mobile view' width='375px'>
+</details>
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+<details>
+  <summary>Desktop view</summary>
+  <img src='screenshots/desktop-view.png' alt='Social links profile challenge - Desktop view'>
+</details>
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+<details>
+  <summary>Active state view</summary>
+  <img src='screenshots/active-state-view.png' alt='Social links profile challenge - Active state view'>
+</details>
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Order Summary Card Component built with React, Vite, and Modern CSS](https://www.frontendmentor.io/solutions/test-sZaqCmRtft)
+- Live Site URL: [Frontend Mentor | Order summary card]([Frontend Mentor | Order summary card](https://challenged-by-frontend-mentor.github.io/order-summary-component/))
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- CSS Custom Properties (Variables)
+- Flexbox & CSS Grid Layout
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- BEM (Block Element Modifier) Naming Convention
+- Fluid Typography with clamp()
+- [React](https://react.dev/) - JS Library
+- [Vite](https://vite.dev/) - Frontend Tooling
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Working on this component helped me refine my CSS architecture and environment setup. A major technical takeaway was understanding how to use `flex-grow` effectively to create fluid layouts without resorting to negative margins or complex position calculations.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+/* Flexible container using flex-grow to push action buttons neatly */
+.plan__detail {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 3px;
+  flex-grow: 1; /* Naturally expands to take available space */
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+I also gained valuable debugging experience during deployment. After pushing the build, I encountered a blank screen. I traced the issue back to missing the `base` relative path configuration in `vite.config.js`. It was a great lesson that reinforced the importance of double-checking build environment configurations early on to save debugging time later.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+For future iterations and upcoming projects, I want to explore several improvements:
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- **Animated Banners & Micro-interactions:** Replacing static banner images with subtle CSS/SVG animations or micro-interactions to make the card visually engaging and dynamic.
+- **Vibrant Visual Themes:** Experimenting with richer color palettes and custom dark/light themes, as the current design palette feels a bit mute and could benefit from stronger contrast to catch the user's eye.
+- **Multi-plan Comparison & Selection:** Extending the layout into a multi-option plan selector, making it easier for users to compare tiers (e.g., Monthly vs. Annual) side-by-side within a single flow.
+- **State Management & Interactivity:** Adding interactive modals or dropdown state toggles for changing order details dynamically.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [**HTML metadata element - MDN**](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta) - Referenced from previous project feedback to properly configure responsive viewports and modern HTML metadata.
+- [**flex-grow CSS property - MDN**](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-grow) - Helped me understand how flex items distribute remaining space dynamically inside parent containers.
 
 ### AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
+I leveraged AI tools to streamline my development and refactoring process:
 
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
-
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
+- **Tools Used**: Google Gemini and Google Search AI Mode.
+- **How It Helped**: Gemini provided key architectural suggestions on CSS structure, specifically introducing the concept of using flex-grow: 1 instead of negative margins to handle spatial alignment cleanly.
+- **Takeaway**: Using AI as a code reviewer helped me spot subtle CSS maintenance pitfalls early and evaluate modern layout alternatives efficiently.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- GitHub: [Kirung Vangmanaw](https://github.com/VangmanawKairung)
+- Frontend Mentor - [@VangmanawKairung](https://www.frontendmentor.io/profile/VangmanawKairung)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- **Myself:** For staying resilient, continuous learning, and never giving up along the way.
+- **My Family:** For unconditionally supporting all my goals and aspirations.
+- **Tools & Software:** Huge thanks to VS Code and its awesome extensions, as well as macOS for built-in utilities like Preview, which made measuring precise element dimensions in pixels effortless.
+- **Google:** For providing free and powerful AI tools like Gemini to assist in learning and development.
