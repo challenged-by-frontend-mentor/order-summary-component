@@ -33,23 +33,23 @@ Users should be able to:
 
 <details>
   <summary>Mobile view</summary>
-  <img src='screenshots/mobile-view.png' alt='Social links profile challenge - Mobile view' width='375px'>
+  <img src='screenshots/mobile-view.png' alt='Order summary card challenge - Mobile view' width='375px'>
 </details>
 
 <details>
   <summary>Desktop view</summary>
-  <img src='screenshots/desktop-view.png' alt='Social links profile challenge - Desktop view'>
+  <img src='screenshots/desktop-view.png' alt='Order summary card challenge - Desktop view'>
 </details>
 
 <details>
   <summary>Active state view</summary>
-  <img src='screenshots/active-state-view.png' alt='Social links profile challenge - Active state view'>
+  <img src='screenshots/active-state-view.png' alt='Order summary card challenge - Active state view'>
 </details>
 
 ### Links
 
 - Solution URL: [Order Summary Card Component built with React, Vite, and Modern CSS](https://www.frontendmentor.io/solutions/test-sZaqCmRtft)
-- Live Site URL: [Frontend Mentor | Order summary card]([Frontend Mentor | Order summary card](https://challenged-by-frontend-mentor.github.io/order-summary-component/))
+- Live Site URL: [Frontend Mentor | Order summary card](https://challenged-by-frontend-mentor.github.io/order-summary-component/)
 
 ## My process
 
